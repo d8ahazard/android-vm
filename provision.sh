@@ -16,7 +16,7 @@ echo "Installing Android NDK..."
 cd /tmp
 sudo curl -O http://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip
 sudo unzip /tmp/android-ndk-r12b-linux-x86_64.zip -d /tmp/android-ndk-r12b
-sudo mkdir /usr/local/android/ndk
+sudo mkdir -p usr/local/android/ndk
 sudo mv /tmp/android-ndk-r12b /usr/local/android/ndk
 sudo rm -rf /tmp/android-ndk-r12b-linux-x86_64.zip
 sudo chmod -R 755 /usr/local/android
