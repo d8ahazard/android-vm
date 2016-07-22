@@ -14,7 +14,7 @@ sudo apt-get install -y ia32-libs >/dev/null 2>&1
 
 echo "Installing Android NDK..."
 cd /tmp
-sudo curl -O http://dl.google.com/repository/android-ndk-r12b-linux-x86_64.zip
+sudo curl -O http://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip
 sudo unzip /tmp/android-ndk-r12b-linux-x86_64.zip -d /tmp/android-ndk-r12b
 sudo mv /tmp/android-ndk-r12b /usr/local/android/ndk
 sudo rm -rf /tmp/android-ndk-r12b-linux-x86_64.zip
